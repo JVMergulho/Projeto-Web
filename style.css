@@ -1,0 +1,231 @@
+@import url('https://fonts.googleapis.com/css2?family=Michroma&family=Rubik+Dirt&family=Rubik+Glitch&family=Rubik+Maze&family=Rubik:wght@500&family=Silkscreen&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+
+}
+
+body{
+    font-family: 'Rubik', cursive;
+    font-size: 20px;
+}
+
+.link_menu{
+    padding: 20px;
+    color: white;
+}
+
+.link_menu:hover{
+    transition: 1s;
+    background-color: rgb(31, 128, 176);
+    padding: 20px;
+    border-radius: 7px;
+    font-weight: bold;
+}
+
+
+header{
+    background: rgba(42,153,208,255);
+    color: white;
+    padding-top: 50px;
+    padding-bottom: 100px;
+    font-family: 'Michroma', sans-serif;
+}
+
+#menu{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 70px;
+    padding-right: 50px;
+    font-size: 19px;
+    flex-wrap: wrap;   
+}
+
+.conteudo{
+    padding-top: 50px;
+
+}
+
+#apresentacao{
+    font-family: 'Rubik', cursive;
+    font-weight: bold;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    justify-content: space-around;
+}
+
+#apresentacao_glitch{
+    font-weight: normal;
+    font-family: 'Rubik Glitch', cursive;
+}
+
+#apresentacao_glitch:hover{
+    font-weight: bold;
+    font-family: 'Rubik', cursive;
+}
+
+#texto_inicio{
+    padding: 30px;
+    margin-left:15%;
+    margin-right:15%;
+    font-weight: 100;
+    font-size: 20px;
+    border-top: 2px solid rgb(47, 48, 54);
+}
+
+
+.apresentacao_curso{
+    font-size: 40px;
+}
+
+.apresentacao_nome{
+    font-size: 60px;
+}
+
+#sobre_mim{
+    margin-top: 30px;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 100px;
+    padding-bottom: 50px;
+    padding-top: 10px;
+    padding-left: 80px;
+    border-radius: 30px;
+    background-color: rgb(185, 217, 232);
+    font-size: 25px;
+    font-family: 'Silkscreen', cursive;
+}
+
+.lista_sobre_mim{
+    font-size: 20px;
+    font-family: 'Rubik', cursive;
+    margin:40px;
+    margin-right:100px;
+}
+
+#habilidades{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: row;
+    margin-bottom: 50px;
+}
+
+#habilidades_titulo{
+    font-family: 'Silkscreen', cursive;
+    font-size: 40px;
+    text-align: center;
+    margin-bottom: 50px;
+    
+}
+
+.imagem_habilidade{
+    width: 110px;
+    padding: 30px;
+}
+
+.imagem_habilidade:hover{
+    transition: 2s;
+    padding: 10px;
+}
+
+#habilidades_descricao{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: row;
+    padding-left: 80px;
+    padding-right: 80px;
+    margin-bottom: 70px;
+}
+
+#html{
+    color: rgb(237, 148, 15);
+}
+
+#css{
+    color: rgb(35, 153, 216);
+}
+
+#python{
+    color: rgb(236, 204, 76);
+}
+
+#c{
+    color: rgb(26, 83, 143);
+}
+
+footer{
+    display: flex;
+    justify-content: end;
+    padding: 50px;
+    background-color: rgb(86, 169, 207);
+}
+
+.seta{
+    padding-top: 100px;
+    width: 100px;
+}
+
+#contato_titulo{
+    font-size: 40px;
+    font-family: 'Silkscreen', cursive;
+    padding-bottom: 50px;
+    
+}
+
+#contato{
+    border-top: 2px solid rgb(47, 48, 54);
+    display: flex;
+    align-items:flex-end;
+    flex-direction: column;
+    padding: 100px;
+    margin-right: 100px;
+    margin-left: 100px;
+}
+
+#git_hub{
+    width: 40px;
+    border-radius: 10%;
+}
+
+#git_hub:hover{
+    background-color: rgb(160, 226, 226); 
+}
+
+.imagem_contato{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+#foto{
+    width: 250px;
+    border-radius: 50%;
+}
+
+#seta_volta{
+    width: 70px;
+    border-radius: 50%;
+}
+
+#seta_volta:hover{
+    background-color: rgb(160, 226, 226); 
+}
+
+#caixa_seta_volta{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 30px;
+}
+
+#texto_seta_volta{
+    font-size: 17px;
+}

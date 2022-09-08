@@ -40,7 +40,6 @@ header{
     flex-direction: row;
     justify-content: center;
     gap: 70px;
-    padding-right: 50px;
     font-size: 19px;
     flex-wrap: wrap;   
 }
@@ -159,6 +158,26 @@ header{
 
 #c{
     color: rgb(26, 83, 143);
+}
+
+#idiomas{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: row;
+    margin-top: 100px;
+    margin-bottom: 70px;
+}
+
+.bandeira{
+    width: 50px;
+}
+
+.idioma_descricao{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    gap: 30px;
 }
 
 footer{

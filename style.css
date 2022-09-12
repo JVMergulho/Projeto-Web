@@ -60,6 +60,7 @@ header{
 }
 
 #apresentacao_glitch{
+    text-align: center;
     font-weight: normal;
     font-family: 'Rubik Glitch', cursive;
 }
@@ -139,6 +140,7 @@ header{
     align-items: center;
     justify-content: space-around;
     flex-direction: row;
+    gap:30px;
     padding-left: 80px;
     padding-right: 80px;
     margin-bottom: 70px;
@@ -167,6 +169,7 @@ header{
     flex-direction: row;
     margin-top: 100px;
     margin-bottom: 70px;
+    gap:30px;
 }
 
 .bandeira{
@@ -196,6 +199,7 @@ footer{
     font-size: 40px;
     font-family: 'Silkscreen', cursive;
     padding-bottom: 50px;
+    margin-top: 100px;
     
 }
 
@@ -204,9 +208,9 @@ footer{
     display: flex;
     align-items:flex-end;
     flex-direction: column;
-    padding: 100px;
     margin-right: 100px;
     margin-left: 100px;
+    margin-bottom: 100px;
 }
 
 #git_hub{
